@@ -100,11 +100,11 @@ int possibleActions(Node currentNode, queue<Node> &frontier, unordered_set<strin
 
 int main()
 {
-    int cost = -1;
     string firstSate;
     string finalState;
     cin >> firstSate;
     cin >> finalState;
+    int cost = -1;
 
     Node firstNode(firstSate, 0);
     queue<Node> frontier;
